@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python"
+version = "0.1.0"
+description = ""
+authors = ["Yuval Saraf <unimonkiez@gmail.com>"]
+packages = [{include = "src"}]
+
+[tool.poetry.scripts]
+start = "src.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+memorix-client-redis = "2.0.0-rc10"
+typing-extensions = "^4.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -20,7 +20,7 @@ Config {
       }
       {
         language: python
-        path: "python/src/schema.generated.py"
+        path: "python/src/schema_generated.py"
       }
     ]
   }
