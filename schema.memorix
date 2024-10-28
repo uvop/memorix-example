@@ -4,11 +4,11 @@ Config {
     files: [
       {
         language: typescript
-        path: "node/src/schema.generated.ts"
+        path: "deno/src/schema.generated.ts"
       }
       {
         language: typescript
-        path: "deno/src/schema.generated.ts"
+        path: "node/src/schema.generated.mts"
       }
       {
         language: typescript
@@ -16,7 +16,7 @@ Config {
       }
       {
         language: rust
-        path: "rust/src/schema.generated.rs"
+        path: "rust/src/schema_generated.rs"
       }
       {
         language: python
