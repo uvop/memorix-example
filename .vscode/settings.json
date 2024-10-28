@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+      "commands": [
+        {
+          "match": ".memorix$",
+          "cmd": "memorix format '${fileBasename}'"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,44 @@
+Config {
+  export: {
+    engine: Redis(env(REDIS_URL))
+    files: [
+      {
+        language: typescript
+        path: "node/src/schema.generated.ts"
+      }
+      {
+        language: typescript
+        path: "deno/src/schema.generated.ts"
+      }
+      {
+        language: typescript
+        path: "bun/src/schema.generated.ts"
+      }
+      {
+        language: rust
+        path: "rust/src/schema.generated.rs"
+      }
+      {
+        language: python
+        path: "python/src/schema.generated.py"
+      }
+    ]
+  }
+}
+
+Enum {
+  System {
+    NODE
+    DENO
+    BUN
+    RUST
+    PYTHON
+  }
+}
+Task {
+  pass_ball: {
+    key: System
+    payload: u64
+  }
+}
+

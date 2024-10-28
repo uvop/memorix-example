@@ -1,0 +1,30 @@
+
+{
+    "folders": [
+      {
+        "name": "deno",
+        "path": "deno"
+      },
+      {
+        "name": "node",
+        "path": "node"
+      },
+      {
+        "name": "bun",
+        "path": "bun"
+      },
+      {
+        "name": "rust",
+        "path": "rust"
+      },
+      {
+        "name": "python",
+        "path": "python"
+      }
+    ],
+    "extensions": {
+      "recommendations": [
+      ]
+    }
+  }
+  
