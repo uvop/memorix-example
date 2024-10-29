@@ -9,6 +9,6 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@memorix/client-redis": "npm:@jsr/memorix__client-redis@v2.0.0-rc10"
+    "@memorix/client-redis": "npm:@jsr/memorix__client-redis@v2.0.1"
   }
 }

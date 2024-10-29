@@ -264,9 +264,9 @@ checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 
 [[package]]
 name = "memorix-client-redis"
-version = "2.0.0-rc9"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4be36a9a4351fee056cef37328837fa847783786252208f1eff9093838c0acd3"
+checksum = "ebe5f338dec1faabc29ea4e3d860c831252c997c40bc9986bde2399c72145113"
 dependencies = [
  "async-stream",
  "futures",
@@ -281,9 +281,9 @@ dependencies = [
 
 [[package]]
 name = "memorix-client-redis-macros"
-version = "2.0.0-rc9"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0b8f36e8520a60896116f34fc2ead40a318ece466fc4e6e331a6a08108ba6902"
+checksum = "730eb22888d93c0e1ef1cac8ed83bb3c137286fd0d35eabe9c1b616533ff1a6c"
 dependencies = [
  "proc-macro2",
  "quote",

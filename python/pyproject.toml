@@ -10,7 +10,7 @@ start = "src.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-memorix-client-redis = "2.0.0-rc10"
+memorix-client-redis = "2.0.1"
 typing-extensions = "^4.12.2"
 
 

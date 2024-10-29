@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@memorix/client-redis": "jsr:@memorix/client-redis@2.0.0-rc10",
+    "@memorix/client-redis": "jsr:@memorix/client-redis@2.0.1",
     "@std/assert": "jsr:@std/assert@1"
   }
 }

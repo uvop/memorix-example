@@ -1,18 +1,16 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@memorix/client-redis@2.0.0-rc10": "2.0.0-rc10",
+    "jsr:@memorix/client-redis@2.0.1": "2.0.1",
     "jsr:@std/assert@1": "1.0.6",
     "jsr:@std/internal@^1.0.4": "1.0.4",
-    "npm:@types/callback-to-async-iterator@1.1.7": "1.1.7",
     "npm:callback-to-async-iterator@1.1.1": "1.1.1",
     "npm:ioredis@^5.4.1": "5.4.1"
   },
   "jsr": {
-    "@memorix/client-redis@2.0.0-rc10": {
-      "integrity": "8075e012ebbd9d0447a41206f2c3c0bd98cf2f7a2a886d1d667978834ac24b1b",
+    "@memorix/client-redis@2.0.1": {
+      "integrity": "78cc737e3e56b682a9a65282d7c4bb70eb8afd3097bc53cab4fb4b031510ed6d",
       "dependencies": [
-        "npm:@types/callback-to-async-iterator",
         "npm:callback-to-async-iterator",
         "npm:ioredis"
       ]
@@ -30,9 +28,6 @@
   "npm": {
     "@ioredis/commands@1.2.0": {
       "integrity": "sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg=="
-    },
-    "@types/callback-to-async-iterator@1.1.7": {
-      "integrity": "sha512-afiFXFGy+AfYjw3O9uUHxydL7+NN7qNZEyWujISrXkmhC51kH43y/ZPKWok1aHbAf4nz3PBXWUwRe9hsq1KBAw=="
     },
     "callback-to-async-iterator@1.1.1": {
       "integrity": "sha512-w5uOapjkp/CEizuvBkLl7JyHlQNlxAT7LSr9g4vFjg5AEM5TJvaajjKkgs4kcFFm0fNqFX9D0zEIotllXvNC1Q==",
@@ -93,7 +88,7 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@memorix/client-redis@2.0.0-rc10",
+      "jsr:@memorix/client-redis@2.0.1",
       "jsr:@std/assert@1"
     ]
   }

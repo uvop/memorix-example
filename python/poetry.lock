@@ -28,14 +28,14 @@ dev = ["black", "coveralls", "mypy", "pre-commit", "pylint", "pytest (>=5)", "py
 
 [[package]]
 name = "memorix-client-redis"
-version = "2.0.0rc10"
+version = "2.0.1"
 description = ""
 category = "main"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "memorix_client_redis-2.0.0rc10-py3-none-any.whl", hash = "sha256:63641280c12aad6f9d817648c41ff1c334e31752697e2145a2d30a699db5aefe"},
-    {file = "memorix_client_redis-2.0.0rc10.tar.gz", hash = "sha256:0043704c60d62338dea1c62174c49bc2bd9abc5f4fece60fead0d5b350ef5197"},
+    {file = "memorix_client_redis-2.0.1-py3-none-any.whl", hash = "sha256:8bf4733ecf2d16304d5c7001ae76c39e57851448cf8c21c2a1b2e7163e68cf73"},
+    {file = "memorix_client_redis-2.0.1.tar.gz", hash = "sha256:7d14446bfa8ddb65b33f9e6c2e35957389329bcf6a1aded7f882ced265fa34c5"},
 ]
 
 [package.dependencies]
@@ -76,4 +76,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e73e95d38ceb27738015604ed7dac0aa3b07a3026a06f073029146a2238ad0b5"
+content-hash = "f5799963a8d481bf8f4377b3a984aa77ff941f38e759637ff42de6f74948ba71"
