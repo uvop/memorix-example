@@ -1,4 +1,5 @@
 import * as mx from "./schema.generated.mjs";
+import { setTimeout }  from "timers/promises";
 
 
 const main = async () => {
@@ -12,6 +13,7 @@ const main = async () => {
   for await (const ball of gen.asyncIterator) {
     const biggerBall = ball + 1;
     console.log(`Passing the ball with value ${biggerBall}`);
+    await setTimeout(500);
     await memorix.task.pass_ball.enqueue(mx.System.BUN, biggerBall);
   }
 }

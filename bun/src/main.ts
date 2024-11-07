@@ -1,4 +1,5 @@
 import * as mx from "./schema.generated.ts";
+import { setTimeout }  from "timers/promises";
 
 const memorix = new mx.Memorix();
 await memorix.connect();
@@ -10,5 +11,6 @@ console.log("Waiting for ball...");
 for await (const ball of gen.asyncIterator) {
   const biggerBall = ball + 1;
   console.log(`Passing the ball with value ${biggerBall}`);
+  await setTimeout(500);
   await memorix.task.pass_ball.enqueue(mx.System.RUST, biggerBall);
 }

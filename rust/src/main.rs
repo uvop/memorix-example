@@ -24,6 +24,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Sync + Send>> {
         let bigger_ball = ball + 1;
 
         println!("Passing the ball with value {bigger_ball}");
+        tokio::time::sleep(tokio::time::Duration::from_millis(500)).await;
         memorix
             .task
             .pass_ball
